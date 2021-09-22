@@ -57,6 +57,7 @@ const sidebarList = [
      { number: 5, parent_number: 3 ,title: '帳號管理' }
 ]
 
+// 產生樹
 const tree = buildTree({
     data:sidebarList,
     id:'number', // PK
